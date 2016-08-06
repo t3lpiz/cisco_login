@@ -1,5 +1,7 @@
 # coding: utf-8
 from selenium import webdriver
+username = 'definiti username'
+password = 'definiti parola'
 driver = webdriver.Chrome()
 driver.get('http://86.106.213.22:8080/home')
 try:
